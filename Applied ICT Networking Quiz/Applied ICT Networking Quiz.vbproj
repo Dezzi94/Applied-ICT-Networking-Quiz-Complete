@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79337869-29CE-429C-9D26-2B4300DD48BB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Applied_ICT_Networking_Quiz.My.MyApplication</StartupObject>
+    <RootNamespace>Applied_ICT_Networking_Quiz</RootNamespace>
+    <AssemblyName>Applied ICT Networking Quiz</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\PublishedQuiz\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/PublishedQuiz/updates/</UpdateUrl>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Applied ICT Networking Quiz.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Applied ICT Networking Quiz.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7DDA67B364BE7B0014C0579373B11A929582FE9A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Applied ICT Networking Quiz_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmNetworkingOtherQuestions3.Designer.vb">
+      <DependentUpon>frmNetworkingOtherQuestions3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingOtherQuestions3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingOtherQuestions2.Designer.vb">
+      <DependentUpon>frmNetworkingOtherQuestions2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingOtherQuestions2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingOtherQuestions.Designer.vb">
+      <DependentUpon>frmNetworkingOtherQuestions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingOtherQuestions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingModels3.Designer.vb">
+      <DependentUpon>frmNetworkingModels3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingModels3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingModels2.Designer.vb">
+      <DependentUpon>frmNetworkingModels2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingModels2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingModels.Designer.vb">
+      <DependentUpon>frmNetworkingModels.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingModels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingProtocols3.Designer.vb">
+      <DependentUpon>frmNetworkingProtocols3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingProtocols3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingProtocols2.Designer.vb">
+      <DependentUpon>frmNetworkingProtocols2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingProtocols2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingProtocols.Designer.vb">
+      <DependentUpon>frmNetworkingProtocols.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingProtocols.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingCablingAndConnectivity3.Designer.vb">
+      <DependentUpon>frmNetworkingCablingAndConnectivity3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingCablingAndConnectivity3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingCablingAndConnectivity2.Designer.vb">
+      <DependentUpon>frmNetworkingCablingAndConnectivity2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingCablingAndConnectivity2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingCablingAndConnectivity.Designer.vb">
+      <DependentUpon>frmNetworkingCablingAndConnectivity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingCablingAndConnectivity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingTechnologies3.Designer.vb">
+      <DependentUpon>frmNetworkingTechnologies3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingTechnologies3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingTechnologies2.Designer.vb">
+      <DependentUpon>frmNetworkingTechnologies2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingTechnologies2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingTechnologies.Designer.vb">
+      <DependentUpon>frmNetworkingTechnologies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingTechnologies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingArchitectures3.Designer.vb">
+      <DependentUpon>frmNetworkingArchitectures3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingArchitectures3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingArchitectures2.Designer.vb">
+      <DependentUpon>frmNetworkingArchitectures2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingArchitectures2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingArchitectures.Designer.vb">
+      <DependentUpon>frmNetworkingArchitectures.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingArchitectures.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingGeneral3.Designer.vb">
+      <DependentUpon>frmNetworkingGeneral3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingGeneral3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingGeneral2.Designer.vb">
+      <DependentUpon>frmNetworkingGeneral2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingGeneral2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingTopologys - Copy.Designer - Copy %282%29.vb">
+      <DependentUpon>frmNetworkingTypes3.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingTopologys - Copy.Designer - Copy %283%29.vb">
+      <DependentUpon>frmNetworkingTypes.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingTopologys - Copy.Designer - Copy.vb">
+      <DependentUpon>frmNetworkingTypes2.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingGeneral.Designer.vb">
+      <DependentUpon>frmNetworkingGeneral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingTypes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingTypes3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingTypes2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingGeneral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingTopologys3.Designer.vb">
+      <DependentUpon>frmNetworkingTopologys3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingTopologys3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingTopologys2.Designer.vb">
+      <DependentUpon>frmNetworkingTopologys2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingTopologys2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingTopologys.Designer.vb">
+      <DependentUpon>frmNetworkingTopologys.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingTopologys.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingComponents3.Designer.vb">
+      <DependentUpon>frmNetworkingComponents3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingComponents3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingComponents2.Designer.vb">
+      <DependentUpon>frmNetworkingComponents2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingComponents2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainMenu.Designer.vb">
+      <DependentUpon>frmMainMenu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetworkingComponents.Designer.vb">
+      <DependentUpon>frmNetworkingComponents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetworkingComponents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultsModels.Designer.vb">
+      <DependentUpon>frmResultsModels.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultsModels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultsProtocols.Designer.vb">
+      <DependentUpon>frmResultsProtocols.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultsProtocols.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultsCablingAndConnectivity.Designer.vb">
+      <DependentUpon>frmResultsCablingAndConnectivity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultsCablingAndConnectivity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultsOtherQuestions.Designer.vb">
+      <DependentUpon>frmResultsOtherQuestions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultsOtherQuestions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultsTechnologies.Designer.vb">
+      <DependentUpon>frmResultsTechnologies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultsTechnologies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultsGeneral.Designer.vb">
+      <DependentUpon>frmResultsGeneral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultsGeneral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultsArchitechtures.Designer.vb">
+      <DependentUpon>frmResultsArchitechtures.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultsArchitechtures.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultsTypes.Designer.vb">
+      <DependentUpon>frmResultsTypes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultsTypes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultsTopology.Designer.vb">
+      <DependentUpon>frmResultsTopology.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultsTopology.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frmResultsComponents.Designer.vb">
+      <DependentUpon>frmResultsComponents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultsComponents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modResetSection.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmNetworkingOtherQuestions3.resx">
+      <DependentUpon>frmNetworkingOtherQuestions3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingOtherQuestions2.resx">
+      <DependentUpon>frmNetworkingOtherQuestions2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingOtherQuestions.resx">
+      <DependentUpon>frmNetworkingOtherQuestions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingModels3.resx">
+      <DependentUpon>frmNetworkingModels3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingModels2.resx">
+      <DependentUpon>frmNetworkingModels2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingModels.resx">
+      <DependentUpon>frmNetworkingModels.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingProtocols3.resx">
+      <DependentUpon>frmNetworkingProtocols3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingProtocols2.resx">
+      <DependentUpon>frmNetworkingProtocols2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingProtocols.resx">
+      <DependentUpon>frmNetworkingProtocols.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingCablingAndConnectivity3.resx">
+      <DependentUpon>frmNetworkingCablingAndConnectivity3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingCablingAndConnectivity2.resx">
+      <DependentUpon>frmNetworkingCablingAndConnectivity2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingCablingAndConnectivity.resx">
+      <DependentUpon>frmNetworkingCablingAndConnectivity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingTechnologies3.resx">
+      <DependentUpon>frmNetworkingTechnologies3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingTechnologies2.resx">
+      <DependentUpon>frmNetworkingTechnologies2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingTechnologies.resx">
+      <DependentUpon>frmNetworkingTechnologies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingArchitectures3.resx">
+      <DependentUpon>frmNetworkingArchitectures3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingArchitectures2.resx">
+      <DependentUpon>frmNetworkingArchitectures2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingArchitectures.resx">
+      <DependentUpon>frmNetworkingArchitectures.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingGeneral3.resx">
+      <DependentUpon>frmNetworkingGeneral3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingGeneral2.resx">
+      <DependentUpon>frmNetworkingGeneral2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingTopologys3.resx">
+      <DependentUpon>frmNetworkingTopologys3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingTopologys2.resx">
+      <DependentUpon>frmNetworkingTopologys2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingTopologys.resx">
+      <DependentUpon>frmNetworkingTopologys.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingComponents3.resx">
+      <DependentUpon>frmNetworkingComponents3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingComponents2.resx">
+      <DependentUpon>frmNetworkingComponents2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainMenu.resx">
+      <DependentUpon>frmMainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingComponents.resx">
+      <DependentUpon>frmNetworkingComponents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingTypes.resx">
+      <DependentUpon>frmNetworkingTypes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingTypes3.resx">
+      <DependentUpon>frmNetworkingTypes3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingTypes2.resx">
+      <DependentUpon>frmNetworkingTypes2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetworkingGeneral.resx">
+      <DependentUpon>frmNetworkingGeneral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultsModels.resx">
+      <DependentUpon>frmResultsModels.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultsProtocols.resx">
+      <DependentUpon>frmResultsProtocols.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultsCablingAndConnectivity.resx">
+      <DependentUpon>frmResultsCablingAndConnectivity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultsOtherQuestions.resx">
+      <DependentUpon>frmResultsOtherQuestions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultsTechnologies.resx">
+      <DependentUpon>frmResultsTechnologies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultsGeneral.resx">
+      <DependentUpon>frmResultsGeneral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultsArchitechtures.resx">
+      <DependentUpon>frmResultsArchitechtures.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultsTypes.resx">
+      <DependentUpon>frmResultsTypes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultsTopology.resx">
+      <DependentUpon>frmResultsTopology.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultsComponents.resx">
+      <DependentUpon>frmResultsComponents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mesh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Token_Ring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WakeyCollegeLogo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

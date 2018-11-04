@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Applied ICT Networking Quiz", "Applied ICT Networking Quiz\Applied ICT Networking Quiz.vbproj", "{79337869-29CE-429C-9D26-2B4300DD48BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Netwworking-Quiz", "Netwworking-Quiz", "{A8D3EA98-BD77-4E4B-900E-9F1D1326D9EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79337869-29CE-429C-9D26-2B4300DD48BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79337869-29CE-429C-9D26-2B4300DD48BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79337869-29CE-429C-9D26-2B4300DD48BB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{79337869-29CE-429C-9D26-2B4300DD48BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79337869-29CE-429C-9D26-2B4300DD48BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79337869-29CE-429C-9D26-2B4300DD48BB} = {A8D3EA98-BD77-4E4B-900E-9F1D1326D9EB}
+	EndGlobalSection
+EndGlobal
